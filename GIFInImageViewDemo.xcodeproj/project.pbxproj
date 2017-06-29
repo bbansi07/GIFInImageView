@@ -12,6 +12,8 @@
 		DC7A1A791F04C40000A21437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7A1A771F04C40000A21437 /* Main.storyboard */; };
 		DC7A1A7B1F04C40000A21437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7A1A7A1F04C40000A21437 /* Assets.xcassets */; };
 		DC7A1A7E1F04C40000A21437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7A1A7C1F04C40000A21437 /* LaunchScreen.storyboard */; };
+		DC7A1A861F04C5A300A21437 /* funny.gif in Resources */ = {isa = PBXBuildFile; fileRef = DC7A1A851F04C5A300A21437 /* funny.gif */; };
+		DC7A1A881F04C68A00A21437 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7A1A871F04C68A00A21437 /* UIImage+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DC7A1A7A1F04C40000A21437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC7A1A7D1F04C40000A21437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC7A1A7F1F04C40000A21437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC7A1A851F04C5A300A21437 /* funny.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = funny.gif; sourceTree = "<group>"; };
+		DC7A1A871F04C68A00A21437 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				DC7A1A7A1F04C40000A21437 /* Assets.xcassets */,
 				DC7A1A7C1F04C40000A21437 /* LaunchScreen.storyboard */,
 				DC7A1A7F1F04C40000A21437 /* Info.plist */,
+				DC7A1A871F04C68A00A21437 /* UIImage+Extension.swift */,
+				DC7A1A851F04C5A300A21437 /* funny.gif */,
 			);
 			path = GIFInImageViewDemo;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC7A1A7E1F04C40000A21437 /* LaunchScreen.storyboard in Resources */,
+				DC7A1A861F04C5A300A21437 /* funny.gif in Resources */,
 				DC7A1A7B1F04C40000A21437 /* Assets.xcassets in Resources */,
 				DC7A1A791F04C40000A21437 /* Main.storyboard in Resources */,
 			);
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC7A1A881F04C68A00A21437 /* UIImage+Extension.swift in Sources */,
 				DC7A1A761F04C40000A21437 /* ViewController.swift in Sources */,
 				DC7A1A741F04C40000A21437 /* AppDelegate.swift in Sources */,
 			);

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  GIFInImageViewDemo
 //
-//  Created by Zeitech Solutions on 29/06/17.
+//  Created by bansi bhatt on 29/06/17.
 //
 //
 
